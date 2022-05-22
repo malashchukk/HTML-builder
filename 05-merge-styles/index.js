@@ -13,7 +13,6 @@ const path = require('path');
     if (type === 'css' && !stat.isDirectory()){
       let content = await fs.promises.readFile(path.join(__dirname, 'styles', file), 'utf-8');
       allContent.push(content + '\n');
-    //  console.log(content);
     }
   }
 

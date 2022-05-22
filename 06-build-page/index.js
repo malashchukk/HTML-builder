@@ -66,12 +66,8 @@ async function createAssetsFolder(){
 
 (async () => {
   await createFolder();
-  // console.log('Folder done!');
   await createHtml();
-  // console.log('HTML done!');
   await createCss();
-  // console.log('CSS done!');
   await createAssetsFolder();
-  // console.log('Assets done!');
   console.log('Page done!');
 })();
