@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-var os = require('os');
+const os = require('os');
 
 const output = fs.createWriteStream(path.join(__dirname, 'text.txt'));
 let text = '';
